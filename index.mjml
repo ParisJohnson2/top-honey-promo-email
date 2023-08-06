@@ -6,38 +6,190 @@
       }
     </mj-style>
     <mj-style inline="inline">
-
+      .icons-size {
+        max-width: 280px;
+        padding: 25px 0 1px;
+      }
     </mj-style>
   </mj-head>
-  <mj-body background-color="black">
-    <mj-wrapper border="0" background-color="#F9F6E7" padding="0">
+  <mj-body background-color="#D3CFCA">
+    <mj-wrapper padding="0" background-color="#FFFFFF">
       <mj-raw>
         <!-- start of header section -->
       </mj-raw>
-      <mj-section padding-bottom="10px">
+      <mj-section padding-bottom="10px" background-color="#F9F6E7">
         <mj-column>
           <mj-image alt="logo-img" href="https://savannahbee.com" align="center" height="70px" width="70px" padding-top="8px" padding-bottom="15px" src="./components/logo.png" />
         </mj-column>
       </mj-section>
-      <mj-section padding="0" background-color="#FDFCF7">
+      <mj-section padding="0">
         <mj-column padding-bottom="0">
-          <mj-text align="center" line-height="1.5" font-size="23px" color="#151660" font-weight="400" padding-top="12px">
+          <mj-text align="center" line-height="1.5" font-size="23px" color="#151660" font-weight="400" padding-top="12px" padding-bottom="15px">
             Sweeten Your Day with Savannah Bee's. <br>
             Irresistable Honey.
             Loved by All.
           </mj-text>
-          <mj-image href="#" alt="header-img" padding="5px 10px 0" src="./components/header-img.jpg" />
+          <mj-image href="https://savannahbee.com/collections/best-sellers" alt="header-img" padding="0 10px" src="./components/header-img.jpg" />
         </mj-column>
       </mj-section>
-      <mj-section background-color="#FDFCF7" padding-top="0" padding-bottom="0">
+      <mj-section padding-top="0" padding-bottom="0">
         <mj-column padding="0 10px" inner-background-color="#F9F6E7">
           <mj-text align="center" color="#151660" font-size="15px" line-height="1.3" font-weight="300">
             Discover the buzz and explore our collection of
             fan-favorite honeys, loved by honey enthusiasts worldwide.
           </mj-text>
-          <mj-image alt="shop-now-logo" align="center" height="45px" width="130px" padding-top="2px" padding-bottom="10px" href="#" src="./components/shop-now.png" />
+          <mj-image alt="shop-now-logo" align="center" height="45px" width="130px" padding-top="2px" padding-bottom="10px" href="https://savannahbee.com/collections/best-sellers" src="./components/shop-now.png" />
         </mj-column>
       </mj-section>
+      <mj-raw>
+        <!-- end of header section -->
+      </mj-raw>
+      <mj-raw>
+        <!-- start of top honey products header -->
+      </mj-raw>
+      <mj-section padding="0">
+        <mj-column padding-bottom="0">
+          <mj-text align="center" line-height="1.5" font-size="25px" color="#151660" font-weight="300" padding-top="35px" text-transform="uppercase" padding-bottom="5px">
+            Shop Best Sellers
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- end of top honey products header -->
+      </mj-raw>
+      <mj-raw>
+        <!-- start of list of products -->
+      </mj-raw>
+      <mj-section direction="ltr">
+        <mj-column padding="0" width="50%">
+          <mj-image alt="product-img1" href="https://savannahbee.com/products/hot-honey?_pos=1&_sid=7e4cec2a0&_ss=r" src="./components/product-img-1.jpg" padding-top="0" padding-bottom="2px" height="180px" width="210px" border-radius="50%">
+        </mj-column>
+        <mj-column width="50%" padding-bottom="1px">
+          <mj-text align="left" color="#151660" font-size="18px" line-height="1.3" font-weight="500" padding-top="25px" padding-bottom="1px">
+            Hot Honey
+          </mj-text>
+          <mj-text align="left" color="#151660" font-size="18px" line-height="1.3" font-weight="300" padding-top="5px" padding-bottom="1px">
+            Hot Honey! What's it NOT good on?
+          </mj-text>
+          <mj-text align="left" color="#151660" font-size="12px" line-height="1.3" font-weight="300" padding-top="10px" padding-right="45px" padding-bottom="1px">
+            Life tastes sweeter with a little bit of sting! We've infused our sweet Wildflower Honey with searing scotch bonnet and habanero peppers for a complex condiment that uplevels your favorite savory dishes, baked goods, and cocktails.
+          </mj-text>
+          <mj-image href="https://savannahbee.com/products/hot-honey?_pos=1&_sid=7e4cec2a0&_ss=r" align="right" padding-right="45px" alt="quick-view-img" src="./components/quick-view.png" height="30px" width="95px" />
+        </mj-column>
+      </mj-section>
+      <mj-section direction="rtl" background-color="#F9F6E7">
+        <mj-column padding="0" width="50%">
+          <mj-image alt="product-img2" href="https://savannahbee.com/products/raw-honey-comb?_pos=1&_psq=raw&_ss=e&_v=1.0" src="./components/product-img-2.jpg" padding-top="0" padding-bottom="2px" height="180px" width="210px" border-radius="50%">
+        </mj-column>
+        <mj-column width="50%" padding-bottom="1px">
+          <mj-text align="left" color="#151660" font-size="18px" line-height="1.3" font-weight="500" padding-top="25px" padding-bottom="1px">
+            Raw Honeycomb
+          </mj-text>
+          <mj-text align="left" color="#151660" font-size="18px" line-height="1.3" font-weight="300" padding-top="5px" padding-bottom="1px">
+            Grazing platter ideas for every season.
+          </mj-text>
+          <mj-text align="left" color="#151660" font-size="12px" line-height="1.3" font-weight="300" padding-top="10px" padding-right="45px" padding-bottom="1px">
+            Spread it on warm bread, plop into salads, or just dig in with a spoon—yes, you can eat the wax!
+          </mj-text>
+          <mj-image href="https://savannahbee.com/products/raw-honey-comb?_pos=1&_psq=raw&_ss=e&_v=1.0" align="right" padding-right="45px" alt="quick-view-img" src="./components/quick-view.png" height="30px" width="95px" />
+        </mj-column>
+      </mj-section>
+      <mj-section direction="ltr">
+        <mj-column padding="0" width="50%">
+          <mj-image alt="product-img3" href="https://savannahbee.com/products/wildflower-honey?_pos=2&_psq=wild&_ss=e&_v=1.0" src="./components/product-img-3.jpg" padding-top="0" padding-bottom="2px" height="180px" width="210px" border-radius="50%">
+        </mj-column>
+        <mj-column width="50%" padding-bottom="1px">
+          <mj-text align="left" color="#151660" font-size="18px" line-height="1.3" font-weight="500" padding-top="25px" padding-bottom="1px">
+            Wildflower Honey
+          </mj-text>
+          <mj-text align="left" color="#151660" font-size="18px" line-height="1.3" font-weight="300" padding-top="5px" padding-bottom="1px">
+            Our Wildflower Honey is what's known as polyfloral
+          </mj-text>
+          <mj-text align="left" color="#151660" font-size="12px" line-height="1.3" font-weight="300" padding-top="10px" padding-right="45px" padding-bottom="1px">
+            Meaning many types of nectar were collected by the bees to make it. It could contain any combination of white holly, gallberry, sawtooth palmetto, and tulip poplar, depending on what's blooming and the whimsy of the bees.
+          </mj-text>
+          <mj-image href="https://savannahbee.com/products/wildflower-honey?_pos=2&_psq=wild&_ss=e&_v=1.0" align="right" padding-right="45px" alt="quick-view-img" src="./components/quick-view.png" height="30px" width="95px" />
+        </mj-column>
+      </mj-section>
+      <mj-section direction="rtl" background-color="#F9F6E7" padding-bottom="0">
+        <mj-column padding="0" width="50%">
+          <mj-image alt="product-img4" href="https://savannahbee.com/products/acacia-honeycomb-jar?_pos=2&_psq=aca&_ss=e&_v=1.0" src="./components/product-img-4.jpg" padding-top="0" padding-bottom="2px" height="180px" width="210px" border-radius="50%">
+        </mj-column>
+        <mj-column width="50%" padding-bottom="1px">
+          <mj-text align="left" color="#151660" font-size="18px" line-height="1.3" font-weight="500" padding-top="25px" padding-bottom="1px">
+            Acacia Honeycomb Jar
+          </mj-text>
+          <mj-text align="left" color="#151660" font-size="18px" line-height="1.3" font-weight="300" padding-top="5px" padding-bottom="1px">
+            Enjoy the “white water” of the world's most popular honey in its natural state
+          </mj-text>
+          <mj-text align="left" color="#151660" font-size="12px" line-height="1.3" font-weight="300" padding-top="10px" padding-right="45px" padding-bottom="1px">
+            Delicately sweet, stupendously clear and 100 percent edible, this jar of joy is a feast for the eyes and palate.
+          </mj-text>
+          <mj-image href="https://savannahbee.com/products/acacia-honeycomb-jar?_pos=2&_psq=aca&_ss=e&_v=1.0" align="right" padding-right="45px" alt="quick-view-img" src="./components/quick-view.png" height="30px" width="95px" padding-bottom="25px" />
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- end of list of products -->
+      </mj-raw>
+      <mj-raw>
+        <!-- start of varity of honey section -->
+      </mj-raw>
+      <mj-section background-color="#F9F6F7" padding="0">
+        <mj-column>
+          <mj-image padding="0" alt="all-honey-img" href="https://savannahbee.com/collections/honey" src="./components/dif-honey.jpg" />
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column padding="0 1px 5px">
+          <mj-text align="center" color="#151660" font-size="15px" line-height="1.3" font-weight="300">
+            Lightly sweet or lusciously robust, with honeycomb or without, by the spoonful or spread with a knife. We even make it spicy hot! What type of honey aficionado will you bee-come?
+          </mj-text>
+          <mj-image alt="shop-now-logo" align="center" height="45px" width="130px" padding-top="2px" padding-bottom="10px" href="https://savannahbee.com/collections/honey" src="./components/shop-now.png" />
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- end of varity of honey section -->
+      </mj-raw>
+      <mj-raw>
+        <!-- start of footer -->
+      </mj-raw>
+      <mj-section background-color="#F9F6E7" padding-bottom="0">
+        <mj-column>
+          <mj-image alt="logo-img" href="https://savannahbee.com" align="center" height="70px" width="70px" padding-top="8px" padding-bottom="5px" src="./components/logo.png" />
+          <mj-text align="center" color="#151660" font-size="15px" line-height="1.3" font-weight="400" padding-top="5px" padding-bottom="0">
+            Savannah Bee Company
+          </mj-text>
+        </mj-column>
+        <mj-group css-class="icons-size">
+          <mj-column padding="0" width="25%">
+            <mj-image padding="0 5px" href="https://www.facebook.com/savannahbeecompany/" src="./components/facebook-logo.png" width="27px" height="27px" alt="facebook" />
+          </mj-column>
+          <mj-column padding="0" width="25%">
+            <mj-image padding="0 5px" href="https://www.instagram.com/savannahbeeco/" src="./components/instagram-logo.png" width="27px" height="27px" alt="instagram" />
+          </mj-column>
+          <mj-column padding="0" width="25%">
+            <mj-image padding="0 5px" href="https://twitter.com/SavannahBeeCo/" src="./components/twitter-logo.png" width="27px" height="27px" alt="twitter" />
+          </mj-column>
+          <mj-column padding="0" width="25%">
+            <mj-image padding="0 5px" href="https://www.pinterest.com/savannahbeeco/" src="./components/pinterest-logo.png" width="27px" height="27px" alt="pinterest" />
+          </mj-column>
+          <mj-column width="100%">
+            <mj-text align="center" color="#151660" font-size="15px" line-height="1.3" font-weight="300" padding="15px 20px">
+              "With each jar of honey, bee-powered beauty product, and cultivated hive, we're working to save the bees. And with every purchase from Savannah Bee Co., you are too."
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-text align="center" color="#151660" font-size="12px" line-height="1.3" font-weight="300" padding-top="5px" padding-bottom="5px">
+            Savannah Bee Company &copy; 2023 All Rights Reserved
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- end of footer -->
+      </mj-raw>
     </mj-wrapper>
   </mj-body>
 </mjml>
